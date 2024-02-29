@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Car, Country, Manufacture, Commentary
+from cars.models import Car, Country, Manufacture, Commentary
 
 
 class CountrySerializer(serializers.ModelSerializer):

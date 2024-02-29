@@ -7,8 +7,8 @@ from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
-from .permissions import CommentaryPermission
-from .serializers import *
+from cars.permissions import CommentaryPermission
+from cars.serializers import *
 
 # region models_viewsets
 
